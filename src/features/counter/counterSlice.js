@@ -4,6 +4,8 @@ const initialState = {
     count: 0
 }
 
+
+//action = function, state = currentState or initialState.... increment, decrement, reset and incrementByAmount are all functions but the first three don't have a payload[or any parameter on them], only the last one has a payload.. that's why action was brought in.
 export const counterSlice = createSlice({
     name: 'counter',
     initialState,
